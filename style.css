@@ -156,7 +156,19 @@ img {
     }
 }
 /* media query tablet 768px */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* media query bonus */
+@media screen and (max-width: 1160px) { 
+    .container{
+        width: 100%;
+        text-align: center;
+    }
     
+
     
 }
